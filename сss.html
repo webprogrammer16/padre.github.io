@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-end обучение</title>
+</head>
+<body>
+    <nav class="top-menu">
+    
+        <ul class="menu-main">
+            <li><a href="index.html">Oснoвы Front-end</a></li>
+            <li><a href="сss.html" class="current"> CSS: Важные теги</a></li>
+            <li><a href="contact.html" >Мои Контакты</a></li>
+        </ul>   
+    </nav>
+
+
+
+
+<div class="body">
+    <br>
+    <div class="text">
+<img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"><br>
+
+<p class="page">Вся структура называется набором правил (но зачастую для краткости "<span>правило</span>"). Отметим также имена отдельных частей:</p>
+<br>
+<br>
+<h3 class="page">Селектор (Selector)</h3>
+<p class="page">Имя HTML элемента в начале набора правил. Он выбирает элемент(ы) для применения стиля (в данном случае, элементы p ).
+Для стилизации другого элемента, просто измените селектор.</p>
+<br>
+<br>
+<h3 class="page">Объявление (Declaration)</h3>
+<p class="page">Например <span>color: red;</span> указывает, какие из свойств элемента вы хотите стилизовать.</p>
+<br>
+<br>
+<h3 class="page">Свойства (Properties)</h3>
+
+<p class="page">Способы, которыми вы можете стилизовать определённый HTML элемент (в данном случае, <span>color</span> является свойством для
+элементов <span>p</span> ). В CSS вы выбираете, какие свойства вы хотите затронуть в вашем правиле.</p>
+<br>
+<br>
+<h3 class="page">Значение свойства (Property value)</h3>
+<p class = "page">Справа от свойства, после двоеточия, у нас есть значение свойства, которое выбирает одно из множества возможных
+признаков для данного свойства (существует множество значений <span>color</span>, помимо <span>red</span>).</p>
+
+<br>
+<br>
+<br>
+<br>
+<h1 class="page" >Важно знать:</h1>
+<ul>
+    <li class="page">Каждый набор правил (кроме селектора) должен быть обёрнут в фигурные скобки ({}).</li>
+    <br>
+    <li class="page">В каждом объявлении необходимо использовать двоеточие (:), чтобы отделить свойство от его значений.</li>
+    <br>
+    <li class="page">В каждом наборе правил вы должны использовать точку с запятой (;), чтобы отделить каждое объявление от следующего.</li>
+    <br>
+</ul>
+<h1 class="page" style="text-align:center; font-size: 50px;">Разные типы селекторов</h1>
+<div class="table">
+    <table class="standard-table">
+        <thead>
+            <tr>
+                <th class="col">Имя селектора</th>
+                <th class="col">Что выбирает</th>
+                <th class="col">Пример</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="col1">Селектор элемента (иногда называемый селектором тега или типа)</td>
+                <td class="col1">Все HTML элемент(ы) указанного типа.</td>
+                <td class="col1"><code>p</code><br>
+                    Выбирает <code>&lt;p&gt;</code></td>
+            </tr>
+            <tr>
+                <td class="col1">ID селектор</td>
+                <td class="col1">Элемент на странице с указанным ID на данной HTML. Лучше всего использовать один элемент для каждого ID
+                    (и конечно один ID для каждого элемента), даже если вам разрешено использовать один и тот же ID для
+                    нескольких элементов.</td>
+                <td class="col1"><code>#my-id</code><br>
+                    Выбирает <code>&lt;p id="my-id"&gt;</code> или <code>&lt;a id="my-id"&gt;</code></td>
+            </tr>
+            <tr>
+                <td class="col1">Селектор класса</td>
+                <td class="col1">Элемент(ы) на странице с указанным классом (множество экземпляров класса может объявляться на странице).
+                </td>
+                <td class="col1"><code>.my-class</code><br>
+                    Выбирает <code>&lt;p class="my-class"&gt;</code> и <code>&lt;a class="my-class"&gt;</code></td>
+            </tr>
+            <tr>
+                <td class="col1">Селектор атрибута</td>
+                <td class="col1">Элемент(ы) на странице с указанным атрибутом.</td>
+                <td class="col1"><code>img[src]</code><br>
+                    Выбирает <code>&lt;img src="myimage.png"&gt;</code> но не <code>&lt;img&gt;</code></td>
+            </tr>
+            <tr>
+                <td class="col1">Селектор псевдокласса</td>
+                <td class="col1">Указанные элемент(ы), но только в случае определённого состояния, например, при наведении курсора.</td>
+                <td class="col1"><code>a:hover</code><br>
+                    Выбирает <code>&lt;a&gt;</code>, но только тогда, когда указатель мыши наведён на ссылку.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h1 class="page" style="text-align:center; font-size: 50px;">Блоки - Основное</h1>
+<p class="page">Каждый блок имеет такие свойства как:</p><br>
+<br>
+<ul>
+   <li class="page"><span>padding</span>, пространство только вокруг контента (например, вокруг абзаца текста)</li><br>
+    <li class="page"><span>border</span>, сплошная линия, которая расположена рядом с padding</li><br>
+    <li class="page"><span>margin</span>,пространство вокруг внешней стороны элемента</li><br>
+<li class="page"><span>width</span> (ширина элемента)</li><br>
+<li class="page"><span>background-color</span>, цвет позади контента и padding элементов</li><br>
+<li class="page"><span>color</span>, цвет контента элемента (обычно текста)</li><br>
+<li class="page"><span>text-shadow</span> устанавливает тень на тексте внутри элемента</li><br>
+<li class="page"><span>display</span>: устанавливает режим отображения элемента (пока что не волнуйтесь об этом)</li> <br>
+
+</ul>
+<video width="400" height="300" controls="controls">
+    <source src="video3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+</div>
+</div>
+
+</body>

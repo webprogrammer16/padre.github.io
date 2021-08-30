@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-end обучение</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="top-menu">
+    
+        <ul class="menu-main">
+            <li><a href="index.html" class="current">Oснoвы Front-end</a></li>
+            <li><a href="сss.html"> CSS: Важные теги</a></li>
+            <li><a href="contact.html">Мои Контакты</a></li>
+        </ul>    </nav>
+    <div class="body">
+        <div class="text">
+        <p class="text_1">Front-end<br>Базовые знания</p>
+        <div class="arrow-down"><a href="#top">
+        <span></span>
+        <span></span>
+        <span></span>
+        </a></div>
+        </div>
+    </div>
+    <div class="down-body">
+<div class="container">
+        <a name="top"></a>
+        <div class="photo">
+        <div class="foundation">
+            <h1>Что такое фронтенд?</h1>
+            <p class="f_text"><span class="god">Frontend-разработка</span> — это работа по созданию публичной части web-приложения, с которой непосредственно контактирует пользователь, и функционала, который обычно выполняется на стороне клиента. То есть, фронтенд разработчик работает над тем, чтобы на сайте каждая кнопочка, иконка, текст и окно не только стояли на своем месте, не перекрывали друг друга и выглядели целостно (это веб-верстка), но и чтобы они выполняли свое прямое предназначение — производили какие-то действие (например, чтобы кнопка “купить” открывала корзину, а “play” — запускала воспроизведение фильма или музыки).</p><br>
+            <p class="f_text">Компоненты фронтенд разработки:</p><br>
+            <ul class="f_text">
+                <li class="f_text"><span class="god">HTML</span> (HyperText Markup Language) говоря простыми словами — это язык разметки всех элементов и документов на странице, и их взаимодействие в структуре страницы.</li> <br>
+                <li class="f_text"><span class="god">CSS (Cascading Style Sheets)</span> — это язык характеристики и стилизации внешнего вида документа. С помощью CSS-кода браузер понимает, как именно необходимо отображать элементы. CSS создает шрифты, цвета, определяет расположение блоков сайта, и другое. Также адаптирует один и тот же документ в разных стилях, выводит передачу на экран или для чтения голосом.</li><br>
+                <li class="f_text"><span class="god">JavaScript</span> — язык, созданный оживить веб-страницы. Задача JavaScript — откликаться на действия пользователя, обрабатывать нажатия клавиш, перемещения курсора, клики мышкой. JavaScript также дает возможность вводить сообщения, посылать запросы на сервер, а также загружает данные без перезагрузки страницы, и так далее.</li> <br>
+            </ul>
+        <video width="400" height="300" controls="controls" >
+            <source src="video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                 </video></div>
+</div></div></div>
+
+</div>
+<div class="down-body_1">
+    <div class="container">
+        <div class="photo">
+            <div class="foundation">
+            <div class="col-1 eMessage" style="padding: 15px 30px 30px 30px;background: #fff;">
+                <h1>Основные теги HTML</h1>
+                <p class="f_text">&nbsp;</p>
+        
+                <h2 style="font-size: 37px;">Базовые теги</h2>
+        
+                <p class="f_text"><span class="god">&lt;!--...--&gt; </span>— тег для добавления комментариев в документ. Помещённые внутри него теги не
+                    интерпретируются браузером.</p>
+        
+                <p class="f_text"><span class="god">&lt;!DOCTYPE&gt;</span> — показывает браузеру тип документа, сообщает его версию и язык.<br>
+                    <br>
+                    <span class="god">&lt;html&gt;&lt;/html&gt;</span> — корневой тег, который сообщает браузеру, что это HTML-документ. Все остальные
+                    элементы помещаются внутри него.
+                </p>
+        
+                <p class="f_text"><span class="god">&lt;head&gt;&lt;/head&gt;</span>— контейнер, в который помещаются метаданные документа, не видимые
+                    пользователям, но считываемые поисковыми роботами: например,<span class="god"> &lt;title&gt;</span> или<span class="god"> &lt;style&gt;</span>.<br>
+                    <br>
+                   <span class="god"> &lt;meta&gt;</span> — тег для оформления метаданных документа, используемых браузером для обработки страницы, а
+                    поисковиками — для индексации.
+                </p>
+        
+                <p class="f_text"><span class="god">&lt;body&gt;&lt;/body&gt;</span> — тег, обрамляющий видимую пользователям часть документа. Всё, что
+                    вы укажите внутри этого контейнера, отобразится на странице. Тег &lt;body&gt; имеет несколько атрибутов,
+                    позволяющих управлять цветами.</p>
+        
+                <p class="f_text"><span class="god">&lt;body bgcolor=?&gt;</span> — цвет фона документа в формате RGB.</p>
+        
+                <p class="f_text"><span class="god">&lt;body text=?&gt;</span> — цвет текста.</p>
+        
+                <p class="f_text"><span class="god">&lt;body link=?&gt;</span> — цвет гиперссылок.</p>
+        
+                <p class="f_text"><span class="god">&lt;body vlink=?&gt;</span> — цвет гиперссылок, по которым уже переходили.</p>
+        
+                <p class="f_text"><span class="god">&lt;body alink=?&gt;</span> — цвет гиперссылок при нажатии.</p>
+        
+                <p class="f_text"><span class="god">&lt;title&gt;&lt;/title&gt;</span>— метатег, который задаёт название страницы, отображаемое на
+                    вкладке браузера.<br>
+                    <br>
+                    <span class="god">&lt;header&gt;&lt;/header&gt;</span> — определяет содержимое блока с вводной информацией сайта или группой ссылок.
+                </p>
+        
+                <p class="f_text">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+    </div>
+    <div class="down-body_2">
+        <div class="container">
+            <div class="photo">
+                <div class="foundation">
+                <h2 style="font-size: 37px;">Форматирование текста</h2>
+                
+                <p class="f_text"><span class="god">&lt;h1&gt;&lt;/h1&gt;......&lt;h6&gt;&lt;/h6&gt;</span>. — теги заголовков, от самого большого к самому
+                    маленькому.</p>
+                
+                <p class="f_text"><span class="god">&lt;b&gt;&lt;/b&gt;</span> — жирный текст без придания важности выделенному фрагменту.</p>
+                
+                <p class="f_text"><span class="god">&lt;strong&gt;&lt;/strong&gt;</span> — расставление акцентов в тексте путём выделения его фрагментов
+                    полужирным начертанием.</p>
+                
+                <p class="f_text"><span class="god">&lt;i&gt;&lt;/i&gt;</span> — выделение текста курсивом без придания важности.<br>
+                    <br>
+                    <span class="god">&lt;del&gt;&lt;/del&gt;</span> — зачёркивает текст, помечая его удалённым.<br>
+                    <br>
+                    <span class="god">&lt;s&gt;&lt;/s&gt;</span> — отображает перечёркнутый текст.<br>
+                    <br>
+                    <span class="god">&lt;ins&gt;&lt;/ins&gt;</span> — подчёркивает текст, визуально выделяя внесённые изменения.<br>
+                    <br>
+                    <span class="god">&lt;u&gt;</span> — подчёркивание без дополнительного акцентирования внимания.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;em&gt;&lt;/em&gt;</span> — расставление акцентов путём выделения фрагментов текста курсивом.</p>
+                
+                <p class="f_text"><span class="god">&lt;mark&gt;&lt;/mark&gt;</span> — выделение частей текста жёлтым маркером.</p>
+                
+                <p class="f_text"><span class="god">&lt;tt&gt;&lt;/tt&gt;</span> — имитация текста, набранного на печатной машинке.<br>
+                    <br>
+                   <span class="god"> &lt;small&gt;&lt;/small&gt;</span> — отображение фрагмента с меньшим кеглем шрифта, чем у остального текста.<br>
+                    <br>
+                    <span class="god">&lt;sub&gt;&lt;/sub&gt;</span> — подстрочное начертание символов.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;sup&gt;&lt;/sup&gt;</span> — надстрочное начертание символов.</p>
+                
+                <p class="f_text"><span class="god">&lt;cite&gt;&lt;/cite&gt;</span> — оформление цитат.</p>
+                
+                <p class="f_text"><span class="god">&lt;address&gt;</span> — добавление контактов или подписи автора. При открытии в вею-браузере выделяется
+                    курсивом.</p>
+                
+                <p class="f_text"><span class="god">&lt;pre&gt;&lt;/pre&gt;</span> — вывод неформатированного текста с сохранением пробелов и особенностей
+                    переносов.</p>
+                
+                <p class="f_text"><span class="god">&lt;p&gt;&lt;/p&gt;</span> — контейнер для абзаца.</p>
+                
+                <p class="f_text"><span class="god">&lt;br&gt;</span> — переносит текст на другую строку без создания абзаца.</p>
+                
+                <p class="f_text"><span class="god">&lt;blockquote&gt; &lt;/blockquote&gt;</span> — отступы с обеих сторон для оформления цитаты или врезки.<br>
+                    <br>
+                    <span class="god">&lt;q&gt;&lt;/q&gt;</span> — краткое цитирование.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;dl&gt;&lt;/dl&gt;</span> — контейнер для размещения термина и его определения.</p>
+                
+                <p class="f_text"><span class="god">&lt;dt&gt;</span> — добавление термина.</p>
+                
+                <p class="f_text"><span class="god">&lt;dd&gt;</span> — добавление определения понятия<br>
+                    <br>
+                    <span class="god">&lt;dfn&gt;</span> — выделение термина курсивом. Последующий текст должен раскрывать понятие.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;abbr&gt;</span> — указывает, что текст является аббревиатурой или акронимом. Для добавления пояснения
+                    используется атрибут title.</p>
+                
+                <p class="f_text"><span class="god">&lt;ol&gt;&lt;/ol&gt;</span> — список с цифрами.</p>
+                
+                <p class="f_text"><span class="god">&lt;ul&gt;&lt;/ul&gt;</span> — список со значками.</p>
+                
+                <p class="f_text"><span class="god">&lt;li&gt;</span> — отметка каждого элемента перечня (цифра или значок в зависимости от типа списка).</p>
+                
+                <p class="f_text"><span class="god">&lt;a&gt;&lt;/a&gt;</span> — добавление гиперссылки в текст. Имеет обязательный атрибут href, в котором
+                    указывается ссылка или якорь. Внутри контейнера помещается текст, при нажатии на который происходит переход на
+                    другую страницу или другое место на этой же странице.<br>
+                    <br>
+                    <span class="god">&lt;code&gt;&lt;/code&gt;</span> — выделение фрагмента кода с помощью шрифта monospace.&nbsp;
+                </p>
+                
+                <p class="f_text">&nbsp;</p>
+<video width="400" height="300" controls="controls">
+    <source src="video1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down-body_3">
+        <div class="container">
+            <div class="photo">
+                <div class="foundation">
+                <h2 style="font-size: 37px;">Встраивание элементов</h2>
+                
+                <p class="f_text"><span class="god">&lt;img&gt;&lt;/img&gt;</span> — вставка изображения. Имеет атрибут src, который указывает на адрес нужного
+                    файла. Есть и другие атрибуты:</p>
+                
+                <p class="f_text"><span class="god">&lt;img src="name" align=?&gt;</span> — выравнивание к одной из сторон документа. Например, значение right
+                    переместит рисунок в правый край, а left — в левый.</p>
+                
+                <p class="f_text"><span class="god">&lt;img src="name" border=?&gt;</span> — позволяет настроить в пикселях толщину рамки вокруг изображения.<br>
+                    <br>
+                    <span class="god">&lt;picture&gt;&lt;/picture&gt;</span> — контейнер для расположения элемента <span class="god">&lt;img&gt;</span> без <span class="god">&lt;source&gt;</span>, который даёт
+                    браузеру возможность самостоятельно выбрать подходящую картинку.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;audio&gt;&lt;/audio&gt;</span> &nbsp;— вставка звукового контента.</p>
+                
+                <p class="f_text"><span class="god">&lt;video&gt;&lt;/video&gt;</span> — вставка видео (поддерживается Ogg, WebM и MP4).<br>
+                    <br>
+                    <span class="god">&lt;source&gt;&lt;/source&gt;</span> — указывает местоположение файла для <span class="god">&lt;video&gt;</span>, <span class="god">&lt;audio&gt;</span> и
+                    <span class="god">&lt;picture&gt;</span><br>
+                    <br>
+                    <span class="god">&lt;track&gt;</span> — формирует субтитры для <span class="god">&lt;video&gt; и &lt;audio&gt;</span>.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;object&gt;&lt;/object&gt;</span> — контейнер, через который встраиваются мультимедийные файлы. Для
+                    передачи параметров применяется тег &lt;param&gt;.<br>
+                    <br>
+                    <span class="god">&lt;hr&gt;</span> — размещает на странице горизонтальную линию. Имеет несколько атрибутов.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;hr size=?&gt;</span> — устанавливает высоту линии.</p>
+                
+                <p class="f_text"><span class="god">&lt;hr width=?&gt;</span> — устанавливает ширину линии.</p>
+                
+                <p class="f_text"><span class="god">&lt;hr noshade&gt;</span> — убирает тень у линии.</p>
+                
+                <p class="f_text"><span class="god">&lt;hr color=?&gt;</span> — задаёт цвет линии.<br>
+                    <br>
+                    <span class="god">&lt;script&gt;&lt;/script&gt;</span> — определяет выполнение сценария на стороне посетителя сайта. Может содержать сам
+                    скрипт или иметь ссылку на &nbsp;внешний источник.<br>
+                    <br>
+                    <span class="god">&lt;noscript&gt;&lt;/noscript&gt;</span> — ограничивает фрагмент документа, в котором скрипт не выполняется.
+                </p>
+                
+                <p class="f_text">&nbsp;</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down-body_4">
+        <div class="container">
+            <div class="photo">
+                <div class="foundation">
+                <h2 style="font-size: 37px;">Работа с таблицами</h2>
+                
+                <p class="f_text"><span class="god">&lt;table&gt;&lt;/table&gt;</span> — размещает таблицу. Все остальные теги для форматирования таблиц должны
+                    находиться внутри это контейнера.<br>
+                    <br>
+                    <span class="god">&lt;thead&gt;&lt;/thead&gt;</span> — определяет заголовок.<br>
+                    <br>
+                    <span class="god">&lt;tbody&gt;&lt;/tbody&gt;</span> — отмечает тело таблицы.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;td&gt;&lt;/td&gt;</span> — создаёт одну ячейку.<br>
+                    <br>
+                    <span class="god">&lt;th&gt;&lt;/th&gt;</span> — указывает на заголовок ячейки.<br>
+                    <br>
+                    <span class="god">&lt;tr&gt;</span> — создание одной строки. &nbsp;<br>
+                    <br>
+                    <span class="god">&lt;tfoot&gt;&lt;/tfoot&gt;</span> — показывает нижний колонтитул.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;caption&gt;&lt;/caption&gt;</span> — вставляет подпись. Указывается после тега <span class="god">&lt;table&gt;</span>.</p>
+                
+                <p class="f_text"><span class="god">&lt;col&gt;</span> — позволяет указать ширину и другие параметры одной или нескольких колонок.</p>
+                
+                <p class="f_text">&nbsp;</p>
+                
+                <h2  style="font-size: 37px;">Создание форм и кнопок</h2>
+                
+                <p class="f_text"><span class="god">&lt;form&gt;&lt;/form&gt;</span> — создание форм на странице. С помощью HTML описывается только внешний вид,
+                    для выполнения функций требуется запуск соответствующих скриптов на сервере.<br>
+                    &nbsp;</p>
+                
+                <p class="f_text"><span class="god">&lt;button&gt;&lt;/button&gt;</span> — создаёт интерактивную кнопку. Внутри контейнера нужно поместить текст
+                    или изображение.<br>
+                    <br>
+                    <span class="god">&lt;select multiple name="NAME" size=?&gt;&lt;/select&gt;</span> — формирует меню с поддержкой скроллинга.<br>
+                    <br>
+                    <span class="god">&lt;select name="NAME"&gt;&lt;/select&gt;</span> — создаёт ниспадающее меню.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;option&gt;&lt;/option&gt;</span> — описывает каждый отдельный пункт меню.<br>
+                    <br>
+                    <span class="god">&lt;input&gt;</span> — формирует поля для добавления пользовательских данных.<br>
+                    <br>
+                    <span class="god">&lt;output&gt;</span> — выводит результаты вычислений, сделанных с помощью скрипта.
+                </p>
+                
+                <p class="f_text"><span class="god">&lt;label&gt;</span> — оформляет пометку для поля, созданного тегом <span class="god">&lt;input&gt;</span>.</p>
+                
+                <p class="f_text"><br>
+                    <span class="god">&lt;textarea&gt;&lt;/textarea&gt;</span> — создаёт большие поля для ввода текста.</p>
+                <video width="400" height="300" controls="controls">
+                    <source src="video2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                </video>
+                </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">ВВЕРХ</button>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+    
+</body>
+</html>

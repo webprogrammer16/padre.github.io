@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.top-menu {
+  position: relative; 
+  background: #fff;
+  box-shadow: inset 0 0 10px #ccc;
+}
+.top-menu:before,
+.top-menu:after {
+  content: "";
+  display: block;
+  height: 1px;
+  border-top: 3px solid #575350;
+  border-bottom: 1px solid #575350;
+  margin-bottom: 2px;
+}
+/* Menu */
+
+.top-menu:after {
+  border-bottom: 3px solid #575350;
+  border-top: 1px solid #575350;
+  box-shadow: 0 2px 7px #ccc;
+  margin-top: 2px;
+}
+.menu-main {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+.menu-main:before,
+.menu-main:after {
+  content: "\25C8";
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menu-main:before {left: 15px;}
+.menu-main:after {right: 15px;}
+.menu-main li {
+  display: inline-block;
+  padding: 5px 0;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 5px;
+  padding: 6px 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #777777;
+  border-bottom: 1px solid transparent;
+  transition: .3s linear;
+}
+.menu-main .current, .menu-main a:hover {
+  border-radius: 3px;
+  background: #f3ece1;
+  color: #313131;
+  text-shadow: 0 1px 0 #fff;
+  border-color: #c6c6c6;
+}
+@media (max-width: 500px) {
+  .menu-main li {display: block;}
+}
+
+*{margin: 0;}
+
+.body{
+ background: url('https://c1.wallpaperflare.com/preview/199/5/177/apple-devices-artificial-flowers-business-computer.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: max-content;
+ 
+}
+.text{
+   margin-left:auto ;
+   width: 80%;
+  margin-right: auto;
+  height: max-content;
+  margin-top:35px ;
+  padding-bottom: 35px;
+  background-color: beige;
+}
+
+video{
+  display: block;
+  
+ margin: 0 auto;
+}
+
+img{
+  padding: 100px;
+  width:1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page{
+  font-size: 20px;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+span{
+  font-weight: 900;
+}
+
+.table{
+  padding: 20px;
+}
+.standard-table{
+  
+    color: #1b1b1b;
+    text-rendering: optimizeSpeed;
+    font-family: arial,x-locale-body,sans-serif;
+    letter-spacing: -.0027777778rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.75;
+    box-sizing: border-box;
+    border: 1px solid #a4a4a4;
+    overflow-x: auto;
+    width: 100%;
+    font-size: 1rem;
+    border-collapse: collapse;
+    margin-bottom: 48px;}
+
+    
+
+    .col{
+      border: 2px solid;
+      background-color: gray;
+      padding: 5px;
+    }
+
+    .col1{
+      border: 2px solid;
+      padding: 5px;
+    }
+
+    
